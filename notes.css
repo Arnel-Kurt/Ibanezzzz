@@ -37,8 +37,9 @@
 .sidebar nav ul {
   list-style-type: none;
   padding: 0;
-  margin-top: -400px;
+  margin-top: -320px;
   margin-left: 20px;
+  position: absolute;
 }
 
 .sidebar nav ul li {
