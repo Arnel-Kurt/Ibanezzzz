@@ -46,8 +46,7 @@ body {
 
 .mid-con {
   margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   justify-content: center;
   width: 400px;
   border: none;
@@ -128,4 +127,27 @@ label {
 
 .signin:hover {
   background-color: #019a82;
+}
+@media only screen and (max-width: 768px) {
+  .mid-con {
+    width: 300px;
+  }
+  .nav ul {
+    flex-wrap: wrap;
+  }
+  .nav ul li {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mid-con {
+    width: 200px;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav ul li {
+    margin-bottom: 20px;
+  }
 }

@@ -124,3 +124,106 @@ h1 {
   height: 550px;
   width: 600px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    width: 90%;
+  }
+  .main-container {
+    padding-right: 20px;
+  }
+  .text-container {
+    width: 400px;
+    height: 450px;
+  }
+  .text {
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn {
+    width: 150px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: -50px;
+  }
+  .image img {
+    height: 450px;
+    width: 500px;
+  }
+}
+
+/* For screens smaller than 1200px (large desktops) */
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    width: 90%;
+  }
+  .main-container {
+    padding-right: 20px;
+  }
+  .text-container {
+    width: 400px;
+    height: 450px;
+  }
+  .text {
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn {
+    width: 150px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: -50px;
+  }
+  .image img {
+    height: 450px;
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 80%;
+  }
+  .main-container {
+    padding-right: 10px;
+  }
+  .text-container {
+    width: 300px;
+    height: 350px;
+  }
+  .text {
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .btn {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+  .image img {
+    height: 350px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .navbar {
+    align-items: flex-start;
+  }
+  .navbar .nav-links {
+    gap: 10px;
+  }
+  .main-content {
+    height: auto;
+  }
+  .main-content .text-container {
+    margin-top: 20px;
+  }
+}

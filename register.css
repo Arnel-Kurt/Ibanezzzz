@@ -109,3 +109,31 @@ button:hover {
 .terms a:hover {
   text-decoration: underline;
 }
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 300px;
+  }
+  .nav ul {
+    flex-wrap: wrap;
+  }
+  .nav ul li {
+    margin-bottom: 10px;
+  }
+}
+
+/* For screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 250px;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav ul li {
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
